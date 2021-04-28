@@ -11,5 +11,5 @@ app.get('*', (req, res) => {
 
 const port = process.env.PORT || 4500;
 app.listen(port, () => {
-    console.log(port)
+    console.log("http://localhost:" + port)
 });
